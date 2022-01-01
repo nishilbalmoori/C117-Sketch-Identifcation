@@ -1,7 +1,11 @@
+var canvas;
+
 function setup(){
-    createCanvas(200,200);
+    canvas = createCanvas(280,280);
+    canvas.center();
+    bakcground(225);
 }
 
 function draw(){
-    // bakcground(225);
+
 }
